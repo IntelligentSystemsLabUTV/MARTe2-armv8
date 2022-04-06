@@ -1,32 +1,22 @@
-# Prerequisites
+/.settings/
+/Build/
+/MARTe2-flexlint-result.out
+/.cproject
+/.project
+/MARTe2 linting/
+/TargetFile_Test.txt
+/_Test.txt
+/.README.md.html
+*.dia~
+depends*.*
+dependsRaw.*
 *.d
-
-# Compiled Object files
-*.slo
-*.lo
+*.gcda
+*.gcno
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
+GTestDirectoryTest/*
+__pycache__
 
-# Executables
-*.exe
-*.out
-*.app
+.vscode
+.clang
